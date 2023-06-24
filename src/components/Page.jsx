@@ -1,15 +1,10 @@
 import reactLogo from "../assets/react.svg";
+import Header from "./Header.jsx";
 
 function Page() {
     return (
             <>
-               <header>
-                   <nav>
-                       <a href="https://react.dev" target="_blank" rel="noreferrer">
-                           <img src={reactLogo} className="logo react" alt="React logo" width="45" />
-                       </a>
-                   </nav>
-               </header>
+              <Header/>
                 <h1>Fun facts about React</h1>
                 <ol>
                     <li>Released in 2013</li>
