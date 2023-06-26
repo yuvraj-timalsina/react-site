@@ -4,11 +4,11 @@ import MainContent from "./MainContent.jsx";
 
 function Page() {
     return (
-            <>
-              <Header/>
-              <MainContent/>
-               <Footer/>
-            </>
+        <>
+            <Header/>
+            <MainContent/>
+            <Footer/>
+        </>
     );
 }
 
