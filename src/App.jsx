@@ -1,10 +1,12 @@
-import Page from "./components/Page.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Main from "./components/Main.jsx";
 function App() {
 
   return (
-    <>
-     <Page/>
-    </>
+    <div className="container">
+        <Navbar/>
+        <Main/>
+    </div>
   )
 }
 
